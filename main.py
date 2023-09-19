@@ -1,15 +1,27 @@
 a = int(input())
 if a == 1:
-    print("Понеділок")
+    print("Січень")
 elif a == 2:
-    print("Вівторок")
+    print("Лютий")
 elif a == 3:
-    print("Середа")
+    print("Березень")
 elif a == 4:
-    print("Четвер")
+    print("Квітень")
 elif a == 5:
-    print("Пятниця")
+    print("Травень")
 elif a == 6:
-    print("Субота")
+    print("Червень")
 elif a == 7:
-    print("Неділя")
+    print("Липень")
+elif a == 8:
+    print("Серпень")
+elif a == 9:
+    print("Вересень")
+elif a == 10:
+    print("Жовтень")
+elif a == 11:
+    print("Листопад")
+elif a == 12:
+    print("Грудень")
+else:
+    print("Eror...")
